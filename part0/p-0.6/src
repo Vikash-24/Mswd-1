@@ -1,0 +1,13 @@
+note over browser
+Browser event handler
+create a note, add it
+list notes and draw
+the contents of the screen again
+end note
+
+browser-> server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+note over server:
+the server executes code that adds
+note to the database
+end note
+server -> browser: {"message": "note created"}
