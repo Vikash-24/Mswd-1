@@ -1,0 +1,23 @@
+body{
+	background-color: black;
+	color: white;
+	font-family: serif;
+}
+.dancenotes h3{
+	color: red;
+	font-size: 35px;
+	font-family: sans-serif;
+}
+img{
+	border: 3px solid white;
+}
+p{
+	color: white;
+	font-size: 20px;
+}
+a{
+	color: red;
+	text-decoration: none;
+	border:1px solid white;
+	background-color: white;
+}
