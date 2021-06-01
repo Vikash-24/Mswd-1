@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register from</title>
+</head>
+<body>
+	<h1>Registration/sign up</h1>
+	<div class="from">
+		<form action="Register" method="post">
+ <ul>
+  <li>
+    <label>Username</label><br>
+    <input type="text" id="name" name="name" required>
+  </li>
+  <li>
+    <label>E-mail</label><br>
+    <input type="email" id="mail" name="email" required>
+  </li>
+  <li>
+    <label>First name</label><br>
+    <input type="text" id="name" name="fname" required>
+  </li>
+   <li>
+    <label>last name</label><br>
+    <input type="text" id="name" name="lname" required>
+  </li>
+   <li>
+    <label>Gender</label><br>
+   <input type="radio" name="gender" value="male"> Male<br>
+   <input type="radio" name="gender" value="female"> Female<br>
+   <input type="radio" name="gender" value="other"> Other
+  </li>
+  <li>
+    <label >Phone number</label><br>
+    <input type="integer" id="number" name="Phone_number" required>
+  </li>
+  <li>
+    <label>Address</label><br>
+  <textarea id="msg" name="user_message"></textarea>
+  </li>
+   <input type="submit" name="submit">
+ </ul>
+
+</form>
+		
+	</div>
+
+</body>
+<style>
+	body{
+		font-family: sans-serif;
+		background-color: black;
+		color: white;
+	}
+   form{
+   border: 1px solid black;
+   	padding: 12px 16px;
+   	background-color:  #3aaf9f;
+   	font-size: 25px;
+   	font-family: serif;
+   	color: white;
+   border-radius: 50px;
+
+   }
+    input[type=text], input[type=password] ,input[type=integer],input[type=email]{
+  width: 30%;
+  padding: 15px;
+  margin: 5px 10px 22px 0;
+  display: inline-block;
+  border: none;
+  background: white;
+  display: inline-block;
+
+}
+textarea[id=msg]{
+	width: 30%;
+	padding: 15px;
+  margin: 5px 10px 22px 0;
+  display: inline-block;
+  border: none;
+  background: white;
+  display: inline-block;
+
+
+}
+input[type=submit]{
+	padding: 10px;
+	background-color: black;
+	color: white;
+	text-align: center;
+
+}
+
+ h1::first-letter{
+        font-size: 100px;
+        color: red;
+        }
+        input[type=button]{
+	width: 70px;
+	height: 40px;
+	background-color: black;
+	color: white;
+
+}
+
+img{
+	padding: 25px;
+}
+button{
+	background-color: black;
+	padding: 10px;
+	border: none;
+	color: white;
+}
+</style>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+ 
